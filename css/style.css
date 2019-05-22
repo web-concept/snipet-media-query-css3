@@ -1,0 +1,78 @@
+
+
+body{
+	margin: 0px;
+    padding: 0px;
+}
+h2{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: solid 2px blue;
+    margin-top: 100px;
+    color: #444;
+}
+
+h3{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    color: rgb(7, 7, 7);    
+}
+
+
+/*La partie mobile avec une languer de 320px Pixel Iphone 5/SE*/
+@media screen and (max-width: 320px) {
+
+     body { background: red;
+    } 
+} 
+
+/*La partie tablette avec une languer de 320px à 375px Pixel 6/7/8**/
+@media screen and (min-width:320px) and (max-width: 375px) {
+
+    body { background: green;
+    } 
+}
+
+     /*La partie tablette avec une languer de 375px à  411 Pixel 2XL*/
+@media screen and (min-width:375px) and (max-width: 411px) {
+     
+    body { background: yellow;
+    } 
+}
+
+
+/*La partie tablette avec une languer 411px à 450 Pixel Iphone 6/7*/
+@media screen and (min-width:411px) and (max-width: 450px) {
+     
+    body { background: rgb(233, 7, 222);
+    } 
+}
+
+/*La partie tablette avec une languer 450px à 750px Pixel Iphone iPad*/
+@media screen and (min-width:450px) and (max-width: 750px) {
+     
+    body { background: rgb(9, 248, 1);
+    } 
+}
+
+/*La partie ecran pc avec une languer 750px à 1024 Pixel Iphone Pad Pro*/
+@media screen and (min-width:750px) and (max-width: 1024px) {
+     
+    body { background: rgb(218, 214, 217);
+    } 
+}
+
+/*La partie ecran avec une languer de 1204 Pixle 1300 Pixel PC*/
+@media screen and (min-width:1024px) and (max-width: 1300px) {
+     
+    body { background: rgb(6, 216, 231);
+    } 
+}
+/*La partie ecran avec une languer de plus 1300 Pixel PC FULL SCREEN*/
+@media screen and (min-width: 1300px) {
+    
+    body { background:rgb(209, 82, 9);
+     } 
+    }
